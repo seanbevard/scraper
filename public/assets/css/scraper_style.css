@@ -1,0 +1,159 @@
+.container {
+    width: 100%;
+    color: #fde192;
+    margin: 0;
+}
+
+.btn,
+.btn:active,
+.btn:active:focus {
+    font-size: 20px;
+    color: #fff;
+    background-color: #340865;
+    border: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #220542;
+    border-color: white;
+    color: #A2A7A5;
+}
+
+.btn:focus {
+    color: #fff;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+::-moz-selection {
+    background: #340865;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #340865;
+    color: #fff;
+    text-shadow: none;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fde192;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #58348c;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 90px;
+}
+
+h1, h2 {
+    margin-top: 0px;
+}
+
+.jumbotron {
+    text-align: center;
+    font-size: 20px;
+    color: #340865;
+    background-color: white;
+    padding: 20px 30px 10px 30px;
+    border-bottom: 15px solid #635380;
+    margin: 0;
+}
+
+input {
+    color: #340865;
+}
+
+
+/*sticky footer code*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.1em;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 90px;
+    color: #A2A7A5;
+    background-color: #340865;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 15px solid #635380;
+}
+
+#text {
+    width: 70%;
+}
+
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+#articles {
+    display: inline-block;
+    overflow: auto;
+    width: 60%;
+    height: 700px;
+}
+
+#notes {
+    float: right;
+    width: 35%;
+}
+
+textarea,
+input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+    color: #340865;
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+textarea {
+    height: 200px;
+    font-size: 18px;
+    color: #340865;
+}
+p{
+    margin: 0;
+}
+#note1{
+    color:white;
+    font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
